@@ -1,0 +1,39 @@
+body{
+
+    background-color: rgb(124, 255, 218);
+    font-family: 'Special Elite', cursive;
+}
+
+h1{
+    background-color: rgb(139, 184, 189);
+    color: black;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas{
+
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+   animation-iteration-count:infinite;
+   margin-top: 50px;
+
+
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 40px rgb(92, 164, 212);}
+    to {box-shadow: 1px 1px 40px rgb(231, 144, 215);}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
